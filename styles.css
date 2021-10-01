@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
 
-.navigation-wrapper {
+.header-wrapper {
    
 }
 
@@ -39,11 +39,11 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-.nav-link a {
+.link-wrapper a {
    
 }
 
-.nav-link a:hover {
+.link-wrapper a:hover {
    
 }
 
