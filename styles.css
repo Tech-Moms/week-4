@@ -1,160 +1,103 @@
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
+
 }
 
 .header-wrapper {
-   background-color: #3b5633;
-   color: #fff;
-   height: 190px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 60px 100px;
 
 }
 
 .left-column {
-    display: flex;
-    align-items: center;
+
 }
 
 .header-styles {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 1em;
+
 }
 
 .center-column {
-   display: grid;
-   grid-template-columns: 1fr;
-   row-gap: 42px;
-   width: 500px;
+
 }
 
 .logo {
-   display: flex;
-   justify-content: center;
+
 }
 
 .logo img {
-    width: 216px;
+
 }
 
 .link-wrapper {
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .nav-link {
-    width: 70px;
-    text-align: center;
+
 }
 
-.link-wrapper a {
-   font-family: 'Ubuntu Condensed', sans-serif;
-   color: #fff;
-   text-decoration: none;
-   transition: 0.5s;
-}
+.nav-link:hover {
 
-.link-wrapper a:hover {
-   color: #bcca99;
-   letter-spacing: 2px;
 }
 
 .right-column {
-   display: flex;
-   align-items: center;
+
 }
 
 .icon {
-  font-size: 2em;
+
 }
 
 .icon-mr {
-  margin-right: 15px;
+
 }
 
 .icon-ml {
-   margin-left: 15px;
+
 }
 
-.homepage {
-   background-image: url(assets/kayak_adventures.jpg);
-   padding: 100px;
-   height: 300px;
-   background-attachment: fixed;
-   background-size: cover;
-   background-position: center;
+.main-section {
+
 }
 
 .top-heading {
-   background-color: #442c06;
-   color: #cbcbcb;
-   width: 290px;
-   border-radius: 2px;
-   padding: 1px 20px;
+
 }
 
 .bottom-heading {
-   background-color: #6b9b5d;
-   color: #442c06;
-   padding: 1px 20px;
-   margin-top: 15px;
-   width: 107px;
-   border-radius: 2px;
+
 }
 
 .features-section {
-   height: 400px;
-   background-image: url(assets/kayak-multiple.png);
-   background-color: #6b9b5d;
-   border-top: 10px solid #fff;
-   color: #fff;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-family: 'Ubuntu Condensed', sans-serif;
-   box-shadow: inset 0px -25px 79px -8px rgba(0,0,0,0.58);
+
 }
 
 .columns-wrapper {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .column {
-    padding: 20px;
-    margin: 42px;
-    text-align: center;
-    border-bottom: 5px solid transparent;
-    border-radius: 10px;
-    transition: 1s;
+
 }
 
 .column:hover {
-    border-bottom: 5px solid #fff;
+
 }
 
-.column :nth-child(1) {
-  font-size: 3em;
+.column-icon {
+
 }
 
-.column :nth-child(2) {
-   font-size: 1.5em;
-   font-weight: 900;
-   height: 50px;
+.column-title {
+
 }
 
-.column :nth-child(2):hover {
-    
+.column-title:hover {
+
 }
 
-.column :nth-child(3) {
-    letter-spacing: 2px;
+.column-content {
+
 }
